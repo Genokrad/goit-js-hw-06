@@ -1,0 +1,19 @@
+ul {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-around;
+  list-style: none;
+}
+li {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
