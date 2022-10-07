@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(237, 237, 237);
+}
+.positioner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .homework-ink {
+  padding: 10px;
+} */
+
+.lesson-item {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color: beige;
+  border: 3px solid rgb(198, 190, 147);
+  border-radius: 20px;
+}
+
+.homework-ink {
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+  font-family: roboto;
+}
